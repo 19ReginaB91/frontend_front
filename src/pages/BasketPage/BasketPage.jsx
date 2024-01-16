@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import s from './basketPage.css'
+import s from './style.module.css'
 import OrderForm from '../../components/OrderForm/OrderForm';
 import BasketItem from '../../components/BasketItem/BasketItem';
 import { Link } from 'react-router-dom'

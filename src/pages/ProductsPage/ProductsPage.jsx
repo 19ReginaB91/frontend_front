@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './productsPage.css'
+import s from './style.module.css'
 import ProductItem from '../../components/ProductItem/ProductItem';
 import { useDispatch, useSelector } from 'react-redux';
 import { useLocation, useParams } from 'react-router-dom';

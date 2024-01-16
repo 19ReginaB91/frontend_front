@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import s from './filter.css'
+import s from './style.module.css'
 import { useDispatch } from 'react-redux';
 import {  useLocation, useParams } from 'react-router-dom';
 import { searchByPrice, sort, filterDiscount, resetFilter } from '../../store/slices/productsSlice';

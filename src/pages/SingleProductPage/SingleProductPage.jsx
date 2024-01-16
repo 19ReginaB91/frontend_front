@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import s from './singleProductPage.css'
+import s from './style.module.css'
 import { addToBasket } from '../../store/slices/basketSlice';
 import { fetchSingleProduct } from '../../store/slices/singleProductSlice';
 import MobilAccordion from '../../components/MobilAccordion/MobileAccordion';

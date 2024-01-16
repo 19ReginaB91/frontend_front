@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import s from './modalMenu.css'
+import s from './style.module.css'
 
 const ModalMenu = ({ active, setActive }) => {
 

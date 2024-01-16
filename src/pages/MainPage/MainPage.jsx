@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import s from './mainPage.css'
+import s from './style.module.css'
 import flowers from './bgImage.png'
 import { Link } from 'react-router-dom'
 import CategoryItem from '../../components/CategoryItem/CategoryItem';
@@ -11,7 +11,7 @@ const MainPage = () => {
     const { categories, products } = useSelector(state => state)
     
     useEffect(() => {
-        document.title = "Garden goods store"
+        document.title = "The Blooming Heaven"
     },[])
 
     return (
@@ -26,7 +26,7 @@ const MainPage = () => {
                         </Link>
                     </div>
                     <div className={s.img_container}>
-                        <img className={s.img} src={flowers} alt="image_flowers"/>
+                        <img className={s.img} src={flowers} alt="garden"/>
                     </div>
                 </div>
             </div>

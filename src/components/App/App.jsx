@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react'
 import './main.css'
 import { Route, Routes } from 'react-router-dom'
-import Header from '../Header/Header.jsx';
-import Footer from '../Footer/Footer.jsx';
-import MainPage from '../../pages/MainPage/MainPage.jsx';
-import NotFoundPage from '../../pages/NotFoundPage/NotFountPage.jsx';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+import MainPage from '../../pages/MainPage/MainPage';
+import NotFoundPage from '../../pages/NotFoundPage/NotFountPage';
 import { useDispatch } from 'react-redux'
-import ProductsPage from '../../pages/ProductsPage/ProductsPage.jsx';
-import CategoriesPage from '../../pages/CategoriesPage/CategoriesPage.jsx';
-import BasketPage from '../../pages/BasketPage/BasketPage.jsx';
-import SingleProductPage from '../../pages/SingleProductPage/SingleProductPage.jsx';
+import ProductsPage from '../../pages/ProductsPage/ProductsPage';
+import CategoriesPage from '../../pages/CategoriesPage/CategoriesPage';
+import BasketPage from '../../pages/BasketPage/BasketPage';
+import SingleProductPage from '../../pages/SingleProductPage/SingleProductPage';
 import ScrollToTop from '../../helpers/ScrollToTop';
-import { fetchCategories } from '../../store/slices/cateroriesSlice.js';
-import { fetchProducts } from '../../store/slices/productsSlice.js';
+import { fetchCategories } from '../../store/slices/cateroriesSlice';
+import { fetchProducts } from '../../store/slices/productsSlice';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 

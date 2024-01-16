@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import s from './categoriesPage.css'
+import s from './style.module.css'
 import { useSelector } from 'react-redux';
 import CategoryItem from '../../components/CategoryItem/CategoryItem';
 

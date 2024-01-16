@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './categoryItem.css'
+import s from './style.module.css'
 import { Link } from 'react-router-dom';
 import { URL } from '../../helpers/links';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './footer.css'
+import s from './style.module.css'
 import PhoneIcon from '@mui/icons-material/Phone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { Link } from 'react-router-dom';

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import s from './header.css'
+import s from './style.module.css'
 import { Badge } from '@mui/material'
 import { useSelector } from 'react-redux';
 import logo from './logo.svg'

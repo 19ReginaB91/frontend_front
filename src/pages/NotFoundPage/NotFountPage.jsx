@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './notFound.css'
+import s from './style.module.css'
 import image from './notFound.png'
 import { Link } from 'react-router-dom';
 

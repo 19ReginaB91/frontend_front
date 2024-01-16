@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './basketItem.css'
+import s from './style.module.css'
 import { useDispatch } from 'react-redux';
-import { decrement, increment, remove } from '../../store/slices/basketSlice.js';
+import { decrement, increment, remove } from '../../store/slices/basketSlice';
 import cross from './cross.svg'
 import { URL } from '../../helpers/links.js'
 

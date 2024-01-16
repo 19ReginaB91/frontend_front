@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import s from './orderForm.css'
+import s from './style.module.css'
 import { useForm } from "react-hook-form";
 import { fetchBasketOrder } from '../../store/slices/basketSlice';
 import { toast } from 'react-toastify';

@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './emptyBasket.css'
+import s from './style.module.css'
 import cart from './cart_empty.svg'
 
 const EmptyBasket = () => {
